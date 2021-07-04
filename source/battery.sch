@@ -78,7 +78,7 @@
 </layers>
 <schematic xreflabel="%F%N/%S.%C%R" xrefpart="/%S.%C%R">
 <libraries>
-<library name="battery">
+<library name="alim">
 <packages>
 <package name="SOIC127P600X175-8">
 <description>8-SOIC, 1.27 mm pitch, 6.00 mm span, 4.90 X 3.90 X 1.75 mm body
@@ -4213,46 +4213,46 @@ Source: AVX .. aphvc.pdf</description>
 </class>
 </classes>
 <parts>
-<part name="U1" library="battery" deviceset="TP5410" device=""/>
-<part name="D1" library="battery" deviceset="SS32" device=""/>
-<part name="I1" library="battery" deviceset="IND47M" device=""/>
-<part name="C1" library="battery" deviceset="C22U" device=""/>
-<part name="C2" library="battery" deviceset="C22U" device=""/>
-<part name="C3" library="battery" deviceset="C22U" device=""/>
-<part name="C4" library="battery" deviceset="C22U" device=""/>
-<part name="GND2" library="battery" deviceset="GND" device=""/>
-<part name="GND4" library="battery" deviceset="GND" device=""/>
-<part name="GND5" library="battery" deviceset="GND" device=""/>
-<part name="GND6" library="battery" deviceset="GND" device=""/>
-<part name="GND7" library="battery" deviceset="GND" device=""/>
-<part name="R3" library="battery" deviceset="R1K" device=""/>
-<part name="R5" library="battery" deviceset="R680" device="" value="R4.7K"/>
-<part name="U$3" library="battery" deviceset="MICRO-USB" device=""/>
-<part name="BAT+" library="battery" deviceset="PIN" device=""/>
-<part name="U$5" library="battery" deviceset="PIN" device=""/>
-<part name="GND1" library="battery" deviceset="GND" device=""/>
-<part name="GND3" library="battery" deviceset="GND" device=""/>
-<part name="GND8" library="battery" deviceset="GND" device=""/>
-<part name="C5" library="battery" deviceset="C100N" device=""/>
-<part name="GND9" library="battery" deviceset="GND" device=""/>
-<part name="C6" library="battery" deviceset="C100N" device=""/>
-<part name="GND10" library="battery" deviceset="GND" device=""/>
-<part name="U$1" library="battery" deviceset="USB20" device=""/>
-<part name="GND11" library="battery" deviceset="GND" device=""/>
-<part name="R1" library="battery" deviceset="R293K" device=""/>
+<part name="U1" library="alim" deviceset="TP5410" device=""/>
+<part name="D1" library="alim" deviceset="SS32" device=""/>
+<part name="I1" library="alim" deviceset="IND47M" device=""/>
+<part name="C1" library="alim" deviceset="C22U" device=""/>
+<part name="C2" library="alim" deviceset="C22U" device=""/>
+<part name="C3" library="alim" deviceset="C22U" device=""/>
+<part name="C4" library="alim" deviceset="C22U" device=""/>
+<part name="GND2" library="alim" deviceset="GND" device=""/>
+<part name="GND4" library="alim" deviceset="GND" device=""/>
+<part name="GND5" library="alim" deviceset="GND" device=""/>
+<part name="GND6" library="alim" deviceset="GND" device=""/>
+<part name="GND7" library="alim" deviceset="GND" device=""/>
+<part name="R3" library="alim" deviceset="R1K" device=""/>
+<part name="R5" library="alim" deviceset="R680" device="" value="R4.7K"/>
+<part name="U$3" library="alim" deviceset="MICRO-USB" device=""/>
+<part name="BAT+" library="alim" deviceset="PIN" device=""/>
+<part name="U$5" library="alim" deviceset="PIN" device=""/>
+<part name="GND1" library="alim" deviceset="GND" device=""/>
+<part name="GND3" library="alim" deviceset="GND" device=""/>
+<part name="GND8" library="alim" deviceset="GND" device=""/>
+<part name="C5" library="alim" deviceset="C100N" device=""/>
+<part name="GND9" library="alim" deviceset="GND" device=""/>
+<part name="C6" library="alim" deviceset="C100N" device=""/>
+<part name="GND10" library="alim" deviceset="GND" device=""/>
+<part name="U$1" library="alim" deviceset="USB20" device=""/>
+<part name="GND11" library="alim" deviceset="GND" device=""/>
+<part name="R1" library="alim" deviceset="R293K" device=""/>
 <part name="C7" library="rcl" deviceset="C-EU" device="C0603K"/>
-<part name="GND12" library="battery" deviceset="GND" device=""/>
-<part name="LD1" library="battery" deviceset="LEDBI" device=""/>
-<part name="P+1" library="battery" deviceset="VCC" device=""/>
-<part name="P+2" library="battery" deviceset="VCC" device=""/>
-<part name="P+3" library="battery" deviceset="VCC" device=""/>
-<part name="P+4" library="battery" deviceset="VCC" device=""/>
-<part name="LD2" library="battery" deviceset="LED_POWER" device=""/>
-<part name="SW1" library="battery" deviceset="SWITCH" device="" value="SWITCH"/>
-<part name="P+5" library="battery" deviceset="+5V" device=""/>
-<part name="GND13" library="battery" deviceset="GND" device=""/>
-<part name="P+6" library="battery" deviceset="+5V" device=""/>
-<part name="R2" library="battery" deviceset="R0.3" device="" value="R39"/>
+<part name="GND12" library="alim" deviceset="GND" device=""/>
+<part name="LD1" library="alim" deviceset="LEDBI" device=""/>
+<part name="P+1" library="alim" deviceset="VCC" device=""/>
+<part name="P+2" library="alim" deviceset="VCC" device=""/>
+<part name="P+3" library="alim" deviceset="VCC" device=""/>
+<part name="P+4" library="alim" deviceset="VCC" device=""/>
+<part name="LD2" library="alim" deviceset="LED_POWER" device=""/>
+<part name="SW1" library="alim" deviceset="SWITCH" device="" value="SWITCH"/>
+<part name="P+5" library="alim" deviceset="+5V" device=""/>
+<part name="GND13" library="alim" deviceset="GND" device=""/>
+<part name="P+6" library="alim" deviceset="+5V" device=""/>
+<part name="R2" library="alim" deviceset="R0.3" device="" value="R39"/>
 </parts>
 <sheets>
 <sheet>
